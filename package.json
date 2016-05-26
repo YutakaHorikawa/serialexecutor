@@ -1,8 +1,8 @@
 {
   "name": "serialexecutor",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "execute promises in sequential order",
+  "main": "lib/index.js",
   "scripts": {
     "build": "./node_modules/.bin/babel ./src --out-dir ./lib  --source-maps-inline",
     "watch": "./node_modules/.bin/babel ./src --out-dir ./lib --watch --source-maps-inline",
