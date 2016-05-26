@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "execute promises in sequential order",
   "main": "lib/index.js",
+  "keywords": "promise",
   "scripts": {
     "build": "./node_modules/.bin/babel ./src --out-dir ./lib  --source-maps-inline",
     "watch": "./node_modules/.bin/babel ./src --out-dir ./lib --watch --source-maps-inline",
